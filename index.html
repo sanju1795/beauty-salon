@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ladies Beauty Salon</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff5f7;
+      color: #5f1a3d;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #ffe4ec;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #d63384;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card h2 {
+      color: #c2185b;
+    }
+    .card p {
+      color: #7a1b4b;
+    }
+    .appointment {
+      text-align: center;
+      padding: 2rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background-color: #d63384;
+      color: white;
+    }
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid #d63384;
+      color: #d63384;
+    }
+    .contact {
+      background-color: #ffe4ec;
+      padding: 2rem;
+      text-align: center;
+    }
+    .contact h2 {
+      margin-bottom: 1rem;
+      color: #d63384;
+    }
+    .contact p {
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ladies Beauty Salon</h1>
+    <p>Where beauty meets elegance</p>
+  </header>
+
+  <section class="services">
+    <div class="card">
+      <h2>Facials</h2>
+      <p>All types of Facials to your needs.</p>
+    </div>
+    <div class="card">
+      <h2>Hair Styling</h2>
+      <p>Trendy cuts, colors, and styles for every occasion.</p>
+    </div>
+    <div class="card">
+      <h2>Makeup</h2>
+      <p>makeup for events, weddings, and photoshoots.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <a href="tel:+27 61 043 1536" class="btn btn-outline">Call Us</a>
+
+    <p><strong>Phone:</strong> +27 61 043 1536</p>
+    <p><strong>Phone:</strong> +27 74 472 3911</p>
+    <p><strong>Address:</strong> 53 condor avenue</p>
+  </section>
+</body>
+</html>
